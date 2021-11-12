@@ -9,6 +9,26 @@ html {
     background-color: wheat;
 }
 
+header {
+    /* border-bottom: 1px black solid; */
+    background-color: wheat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    /* need this otherwise shortens and shoves to left */
+    width: 100%;
+
+    /* otherwise disappears behind main when scrolling */
+    z-index: 1;
+
+}
+
+main {
+    position: relative;
+    top: 100px;
+}
+
 .box {
     border: 1px solid black;
     /* height: 200px; */
