@@ -1,0 +1,157 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+html {
+    /* color: burlywood;     */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: wheat;
+}
+
+.box {
+    border: 1px solid black;
+    /* height: 200px; */
+    /* margin: 50px; */
+    width: 80%;
+    margin: 50px auto;
+}
+
+.container {
+    /* border: 1px solid rgb(207, 13, 13); */
+    width: 90%;
+    margin: 0px auto;
+}
+
+.row {
+    /* border: 1px solid blue; */
+    /* width: 90%; */
+    margin: 10px auto;
+    /* margin-bottom: 10px; */
+    text-align: center;
+}
+
+.top-row {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 0px auto;
+}
+
+h1 {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.colour {
+    display: inline-block;
+    width: 250px;
+    /* height: 50px; */
+    /* border: 1px solid red; */
+    /* margin: 10px auto; */
+    margin: 10px;
+}
+
+.colour {
+    text-align: center;
+    color: white;
+}
+
+#burgundy {
+    background-color: #750214;
+}
+
+#royal-blue {
+    background-color: #03034a;
+}
+
+#gold {
+    background-color: #c9b928;
+}
+
+#purple {
+    background-color: #a628c9;
+    margin-bottom: 20px;
+}
+
+#placeholder-one, #placeholder-two {
+    /* border: 1px solid black; */
+    /* color: black; */
+    /* removes it from the flow so bottom row only sees 1 box and centres it */
+    /* display: none; */
+    /* just hides it - so bottom row still has 3 boxes and the visible on is justified left  */
+    visibility: hidden;
+}
+
+.font {
+    display: inline-block;
+    margin: 20px;
+    font-size: 26px;
+
+}
+
+.font h3 {
+    text-decoration: underline;
+}
+
+.font .bold {
+    font-weight: bold;
+}
+
+.font .italics {
+    font-style: italic;
+}
+
+#dongle {
+    font-family: 'Dongle', sans-serif;
+}
+
+#caveat {
+    font-family: 'Caveat', cursive;
+}
+
+#dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+
+#puppies-play {
+    font-family: 'Puppies Play', cursive;
+}
+
+.style h1 {
+    width: 100%;
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 48px;
+    font-family: Dongle, sans-serif;
+}
+
+.style h2 {
+    font-weight: 500;
+    font-size: 28px;
+    font-family: Caveat, cursive;
+}
+
+.style p {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#h1 {
+    font-family: Dongle, sans-serif;
+    font-size: 30px;
+}
+
+#h2 {
+    font-family: Caveat, cursive;
+    font-size: 28px;
+}
+
+#p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+
+h2.title {
+    text-decoration: underline;
+}
